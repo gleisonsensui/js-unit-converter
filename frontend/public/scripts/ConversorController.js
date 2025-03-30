@@ -92,6 +92,6 @@ export default class ConversorController {
     this.unidade.message = message;
     this.unidade.resultado = conversao;
     this.resultOutput.value = conversao;
-    this.messageOutput.textContent = message
+    this.messageOutput.textContent = message;
   }
 }
